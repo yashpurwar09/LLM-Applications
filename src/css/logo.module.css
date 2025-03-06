@@ -1,0 +1,11 @@
+#logo{
+    place-self: center;
+    background-color: #3a3535;
+    min-width: fit-content;
+    text-align: center;
+    color: beige;
+    /* margin: 0px 400px; */
+    border-radius: 20px;
+    padding: 0px 30px;
+  }
+  

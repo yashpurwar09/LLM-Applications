@@ -1,0 +1,17 @@
+#input{
+    width: 500px;
+    min-height: 25px;
+    margin-left: 120px;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 15px;
+    font-style: arial;
+    line-height: 20px;
+    resize: none;
+  }
+  
+  #input:focus{
+    outline: none;
+  }

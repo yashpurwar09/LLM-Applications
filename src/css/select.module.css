@@ -1,0 +1,24 @@
+#main{
+    display: flex;
+    height: 60px;
+    background-color: black;
+    padding: 20px;
+    column-gap: 10px;
+    border-radius: 50px;
+    align-self: center;
+}
+
+#language{
+    border-radius: 30px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+}
+
+#language:focus{
+    outline: none;
+}
+
+#label{
+    font-size: 13px;
+}
