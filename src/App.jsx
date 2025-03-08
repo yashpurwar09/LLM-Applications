@@ -19,7 +19,8 @@ function App() {
 
     useEffect(()=>{
         if(userInput){
-          fetch(`http://localhost:3000/?chatmsg=${userInput}`)
+          // fetch(`http://localhost:3000/?chatmsg=${userInput}`)
+          fetch(`https://llm-applications-backend.onrender.com/?chatmsg=${userInput}`)
           .then((response)=> response.json())
           .then((response)=>{
             setData(response);

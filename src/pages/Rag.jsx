@@ -20,7 +20,8 @@ export default function Rag(){
         if(userInput){
             console.log(userInput);
             
-            fetch(`http://localhost:3000/rag?question=${userInput}`)
+            // fetch(`http://localhost:3000/rag?question=${userInput}`)
+            fetch(`https://llm-applications-backend.onrender.com/rag?question=${userInput}`)
             .then((res)=>{
                 setOutput(res.text())
                 console.log(output);

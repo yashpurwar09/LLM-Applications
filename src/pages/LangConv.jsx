@@ -22,7 +22,8 @@ export default function LangConverter(){
 
     useEffect(()=>{
         if(userInput){
-            fetch(`http://localhost:3000/LangConverter?text=${userInput}&language=${language}`)
+            // fetch(`http://localhost:3000/LangConverter?text=${userInput}&language=${language}`)
+            fetch(`https://llm-applications-backend.onrender.com/LangConverter?text=${userInput}&language=${language}`)
             .then((res)=>res.text())
             .then((text)=>setOutput(`Translation: ${text}`))
             // setInput("")
