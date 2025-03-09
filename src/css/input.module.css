@@ -1,7 +1,7 @@
 #input{
     width: 500px;
     min-height: 25px;
-    margin-left: 120px;
+    margin-left: 50px;
     background: transparent;
     border: none;
     border-radius: 10px;
@@ -14,4 +14,12 @@
   
   #input:focus{
     outline: none;
+  }
+
+  @media screen and (max-width: 500px) {
+    #input{
+      width: 80%;
+      margin-left: 0px;
+      padding: 0px 10px;
+    }
   }

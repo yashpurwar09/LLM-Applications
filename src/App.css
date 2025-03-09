@@ -1,6 +1,6 @@
 #root {
-  /* max-width: 1280px; */
-  width: 1280px;
+  max-width: 1280px;
+  /* width: 1280px; */
 }
 
 .main-1{
@@ -20,7 +20,7 @@
 .main-2{
   display: flex;
   margin: 0px 250px;
-  padding: 20px 0px 20px 20px;
+  padding: 20px 20px 20px 20px;
   flex-direction: row;
   position: sticky;
   bottom: 0px;
@@ -30,3 +30,22 @@
 }
 
 
+@media  screen and (max-width: 500px){
+  #root{
+    width: 100%;
+    padding: 10px;
+  }
+
+  .main-1{
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    padding: 0rem;
+  }
+
+  .main-2{
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    column-gap: 0px;
+    padding: 10px 0px;
+  }
+}

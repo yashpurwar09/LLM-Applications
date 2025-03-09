@@ -30,3 +30,13 @@
     text-decoration: none;
     color: antiquewhite;
 }
+
+@media screen and (max-width: 500px) {
+    .header{
+        width: 100%;
+        margin: 25px 0px;
+    }
+    .ul{
+        flex-direction: column;
+    }
+}

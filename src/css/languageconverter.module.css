@@ -29,3 +29,16 @@
     padding: 20px;
     text-align: start;
 }
+
+@media screen and (max-width: 500px) {
+
+    #main1{
+        margin: 50px 0px 20px 0px;
+        min-height: 70px;
+        padding: 0px 10px;
+    }
+    #main2{
+        margin: 20px 0px;
+    }
+    
+}

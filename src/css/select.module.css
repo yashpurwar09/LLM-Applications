@@ -22,3 +22,17 @@
 #label{
     font-size: 13px;
 }
+
+@media screen and (max-width:500px) {
+    #main{
+        flex-direction: column;
+    }
+    #language{
+        width: 100%;
+        padding: 0px;
+        font-size: 10px;
+    }
+    #label{
+        font-size: 10px;
+    }
+}
