@@ -1,10 +1,8 @@
 import { useState, useEffect, useRef } from 'react'
-import Header from './components/Header'
 import './App.css'
 import Paragraph from "./components/paragraph"
 import Button from './components/Button'
 import Logo from './components/logo'
-import { createBrowserRouter, RouterProvider, NavLink, Link} from "react-router-dom"
 import Input from './components/Input'
 
 
